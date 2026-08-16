@@ -1,0 +1,20 @@
+{
+  "name": "crypto-mcap-tracker",
+  "version": "1.0.0",
+  "description": "Multi-chain $0-50k Market Cap Tracker",
+  "main": "dist/tracker.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/tracker.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.5",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/ws": "^8.5.10",
+    "typescript": "^5.4.5"
+  }
+}
